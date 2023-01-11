@@ -1,0 +1,10 @@
+language: bg
+intents:
+  HassTurnOff:
+    data:
+      - sentences:
+          - "<turn_off> [всички] вентилатор[(а|и|ите)] в <area>"
+          - "<turn_off> [всички] <area> вентилатор[и]"
+        slots:
+          domain: "fan"
+          name: "all"
